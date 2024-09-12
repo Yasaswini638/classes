@@ -1,0 +1,25 @@
+
+                                                              COMPTIA NETWORK:
+Here are short notes on the classes of IPv4 addresses:
+Class A:
+  Range:1.0.0.0 to 126.0.0.0
+  Default subnet mask:255.0.0.0
+  First octet is used for network ID, remaining 3 for host ID
+
+Class B:
+  Range:128.0.0.0 to 191.255.0.0
+  Supports medium-sized networks(up to 65,534 hosts)
+  Default subnet mask:255.255.0.0
+  First 2 octets for network ID, remaining 2 for host ID
+
+Class C:
+  Range:192.0.0.0 to 223.255.255.0
+  Supports small networks (up to 254 hosts)
+  Default subnet mask:255.255.255.0
+  First 3 octets for network ID, last octet for host ID
+
+Class D:
+  Range:224.0.0.0 to 239.255.255.255
+  Used for multicasting (not for normal host addressing)
+  No subnet mask
+
